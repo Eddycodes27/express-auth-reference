@@ -1,0 +1,17 @@
+<body>
+    
+
+<h1>Search for Food</h1>
+
+<h2>Results will display Nutrition Information.</h2>
+<form action="/search" method="POST" onsubmit="return result()">
+    <label for="search">Search Food:</label>
+    <input type="text" id="search" name="search" />
+    <input type="submit" value="Submit"/>
+</form>
+
+<div id="apiData">
+    <%= result %>
+</div>
+
+</body>

@@ -1,5 +1,5 @@
 {
-  "name": "auth_practice",
+  "name": "foodlogger3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.24.0",
     "bcrypt": "^5.0.0",
+    "bootstrap": "^5.1.3",
     "connect-flash": "^0.1.1",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
+    "nutritionix-api": "^1.0.4",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "pg": "^8.4.2",

@@ -38,6 +38,8 @@ app.use((req, res, next) => {
 
 // controllers middleware 
 app.use('/auth', require('./controllers/auth'))
+app.use('/foods', require('./controllers/foods'))
+app.use('/search', require('./controllers/search'))
 
 
 // home route
@@ -51,6 +53,6 @@ app.get('/profile', isLoggedIn, (req, res)=>{
 })
 
 
-app.listen(3000, ()=>{
-    console.log("auth_practice running on port 3000")
+app.listen(8000, ()=>{
+    console.log("auth_practice running on port 8000")
 })
